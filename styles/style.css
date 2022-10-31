@@ -1,0 +1,179 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    font-size: 25px;
+    font-family:'Oswald', sans-serif;
+    background-color: rgb(201, 214, 223);
+}
+/* HEADER */
+.navbar {
+    /* margin-left: 30em; */
+    background-color:  rgb(201, 214, 223);
+}
+.navbar-nav {
+    padding-left: 55rem;
+}
+header {
+    background-color: rgb(82, 97, 107); 
+}
+.logo {
+    position: absolute;
+    width: 6rem;
+    height: 6rem;
+    right: 57em;
+    padding: 1rem;
+    border-radius: 30%;
+}
+h1 {
+    /* width: 10%; */
+    margin: 0;
+    color: black;
+    font-size: 50px;
+    font-family:'Cinzel', serif;
+}
+p {
+    color: black;
+    margin-bottom: 50px;
+}
+/* Containers */
+.top-container {
+    background-color: rgb(82, 97, 107);
+    position: relative;
+    padding-top: 200px;
+}
+.middle-container {
+
+
+}
+.about {
+    width: 70rem;
+    height: 28rem;
+    text-align: left;
+    line-height: 2;
+    margin: auto;
+    background-color: rgb(201, 214, 223);
+}
+.profile1 {
+    margin: 70px;
+    margin-right: 100px;
+    float: left;
+    width: 350px;
+    height: 400px;
+}
+/* .profile1 {
+    width: 250px;
+    height: 300px;
+    width: 55%;
+    border-radius: 10%;
+    float: left;
+    margin-right: 60px;
+} */
+/* RESUME */
+.resume {
+    
+}
+.telescope {
+    width: 100px;
+    height: 150px;
+    margin: 20px;
+}
+.skills2 {
+    width: 250px;
+    height: 300px;
+    border-radius: 10%; 
+}
+.bottom-container {
+
+}
+/* Cloud */
+.top-cloud {
+    position: absolute;
+    width: 90px;
+    height: 80px;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud {
+    position: absolute;
+    width: 90px;
+    height: 80px;
+    left: 300px;
+    bottom: 300px;
+}
+.mountain {
+    
+}
+
+/* SKILLS */
+.skill-row {
+    /* background-color: rgb(82, 97, 107);
+    margin: 60px;
+    border-radius: 15%; */
+}
+#skills h4{
+    font-size:30px;
+    margin-bottom:-4px;
+  }
+ul {
+    list-style-type: none;
+}
+#skills li {
+    margin: 20px 5px 10px 5px ;
+}
+progress {
+    width: 70%;
+    height: 30px;
+    color: rgb(240, 245, 249);
+    background: rgb(240, 245, 249);
+    margin-top:0px;
+}
+progress::-webkit-progress-bar {
+    background: rgb(240, 245, 249);
+}
+progress::-webkit-progress-value {
+    background:  rgb(82, 97, 107)
+} 
+/* Projects */
+.project {
+    width: 100px;
+    height: 150px;
+
+}
+/* testimonials */
+.testimonials {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+.footer {
+    background-color: rgb(82, 97, 107);
+    height: 500px;
+}
+/* MEDIA QUERY */
+@media screen and (max-width: 720px) {
+    .logo {
+        display: none;
+    }
+    .navbar {
+        
+    }
+    body {
+        text-align: center;
+    }
+
+    .top-cloud {
+        display: none;
+    }
+    .bottom-cloud {
+        display: none;
+    }
+    .button {
+        margin: auto;
+    }
+}
