@@ -18,31 +18,44 @@
 <body>
     <header>
       <!---------------NAVBAR------------->
-        <nav class="navbar navbar-expand-lg text-dark">
-            <div class="container-fluid">
-              <img class="logo" src="https://i.postimg.cc/JhRNhnQr/1000-F-347109516-UGKu-SQWUJG6-Ymp-UPJ1-Gqh-PAH80-Gd-WLWr.jpg" alt="logo">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-                <div class="navbar-nav collapse navbar-collapse" id= "navbarTogglerDemo01">
-                  <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
-                  <a class="nav-link" href="#about">About</a>
-                  <a class="nav-link" href="#resume">Resume</a>
-                  <a class="nav-link" href="#projects">Projects</a>
-                  <a class="nav-link" href="#testimonials">Testimonials</a>
-                  <a class="nav-link" href="#contact">Contact</a>
-                </div>
-              </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <img class="logo" src="https://i.postimg.cc/JhRNhnQr/1000-F-347109516-UGKu-SQWUJG6-Ymp-UPJ1-Gqh-PAH80-Gd-WLWr.jpg" alt="logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#resume">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <!-- HEADER -->
     <section>
     <div class="top-container container-fluid">
       <img class="astronaut img-fluid" src="https://i.postimg.cc/qBmNgHdx/astronaut.png" alt="astronaut">
-      <h1 class="text-black">I'm Javier Goodall</h1>
-      <p class="text-black">Aspiring Full Stack Web Developer</p>
+      <h1 class="text-black">Hey, I'm Javier Goodall</h1>
+      <p class="subheading text-black">Aspiring Full Stack Web Developer</p>
       <img class="spaceship img-fluid" src="https://i.postimg.cc/0yHgJZy3/startup.png" alt="spaceship">
       <img class="moon img-fluid" src="https://i.postimg.cc/PJYBwkRr/halfmoon.png" alt="moon">
+      <a href="#" class="link-arrow fixed-top"><img src="https://i.postimg.cc/ydCqB7Wc/up-arrow.png" loading="lazy" alt="scroll button" class="arrow"></a>
     </div>
   </section>
   <!-- ABOUT ME -->
@@ -60,17 +73,17 @@
         <!-- RESUME -->
         <section id="resume" class="container-fluid">
           <h3 class="display-3 text-dark mt-5 mb-3">Resume</h3>
-          <img class="telescope" src="https://i.postimg.cc/bYR8jkkd/telescope.png" alt="Skills">
+          <!-- <img class="telescope" src="https://i.postimg.cc/bYR8jkkd/telescope.png" alt="Skills"> -->
           <h3 class="fw-bold">Education</h3>
           <ul class="resume lh-lg">
-            <li>January 2013 - December 2017 - Bachelor Pass, Plumstead High School</li>
-            <li>February 2019 - October 2022 - Bachelor of Arts Degree, University of Cape</li>
-            <li>September 2022 - Present - Software Development Certificate, Life Choices Academy</li>
+            <li>January 2013 - December 2017 <p>Bachelor Pass, Plumstead High School</p></li>
+            <li>February 2019 - October 2022 <p>Bachelor of Arts Degree, University of Cape</p></li>
+            <li>September 2022 - Present <p>Software Development Certificate, Life Choices Academy</p></li>
           </ul>
           <h3 class="fw-bold">Experience</h3>
           <ul class="lh-lg">
-            <li>February 2019 -February 2020 - Volunteer, Students Health and Welfare Centre Organization (SHAWCO)</li>
-            <li>January 2021 - Present - Film and Television Extra, 39 Steps</li>
+            <li>February 2019 -February 2020 <p>Volunteer, Students Health and Welfare Centre Organization (SHAWCO)</p></li>
+            <li>January 2021 - Present <p>Film and Television Extra, 39 Steps</p></li>
           </ul>
       </section>
         <!-- SKILLS -->
@@ -136,17 +149,16 @@
               </div>
               </div>
           </section>
-
-          
-            <!-- Testimonials -->
-          <section id="testimonials" class="container-fluid">
+           <!-- Testimonials -->
+           <section id="testimonials" class="container-fluid">
             <div class="testimonial-area container">
              <h3 class="display-3 text-dark mb-5">Testimonials</h3>
             <div class="row col-sm-12 section-header text-center"></div>
             <div class="col-sm-12">
               <div class="carousel slide" data-bs-ride="true" id="carouselExampleIndicators">
                 <div class="carousel-indicators mb-5">
-                  <button aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators" type="button"></button> 
+                  <button aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators" type="button">    
+                  </button> 
                     <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleIndicators" type="button"></button> 
                     <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators" type="button"></button>
                     <button aria-label="Slide 4" data-bs-slide-to="3" data-bs-target="#carouselExampleIndicators" type="button"></button>
@@ -155,17 +167,17 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <div class="content text-center">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit reiciendis necessitatibus laborum numquam consequuntur possimus magnam expedita ipsam illum voluptatem quia assumenda placeat, at asperiores vitae obcaecati. Reprehenderit nesciunt voluptatem excepturi, libero ipsum tempora perspiciatis.</p>
+                      <p>Conducts himself very professionally. Javier has very strong communication skills. Displays qualities of being open and honest. He believes that when he starts anything to follow through with it and ensuring he finish 100%</p>
                       <div><img class="person" src="https://i.postimg.cc/Jz57R4n5/testimonial.png"alt="person"></div>
-                      <h5>John Doe 1</h5>
-                      <h6>Web Developer</h6>
+                      <h5>Candice Amon</h5>
+                      <h6>.....</h6>
                     </div>
                   </div>
                   <div class="carousel-item">
                     <div class="content text-center">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit reiciendis necessitatibus laborum numquam consequuntur possimus magnam expedita ipsam illum voluptatem quia assumenda placeat, at asperiores vitae obcaecati. Reprehenderit nesciunt voluptatem excepturi, libero ipsum tempora perspiciatis.</p>
+                      <p>Javier`s calm demeanor creates an ambience, that is a showcase of his composed character. Having worked with him, I can certainly say that his unwavering methodology is something everyone should aspire to and practice.</p>
                       <div><img class="person" src="https://i.postimg.cc/Jz57R4n5/testimonial.png"alt="person"></div>
-                      <h5>John Doe 2</h5>
+                      <h5>Umayr Nordien</h5>
                        <h6>Web Developer</h6>
                     </div>
                   </div>
@@ -193,13 +205,21 @@
                       <h6>Web Developer</h6>
                     </div>
                   </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
               </div>
             </div>
           </div>
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">
           </script>
-          </section>
+           </section>
         <!-- CONTACT -->
         <section class="container-fluid">
           <h3 id="contact" class="display-3 text-dark mt-5 mb-5">Contact</h3>
@@ -227,6 +247,7 @@
           </form>
         </section>
       </div>
+      <!-- FOOTER -->
       <footer>
         <div class="footer">
           <h2 class="text-black my-4">Social</h2>

@@ -15,14 +15,14 @@ body {
 .navbar {
     background-color:  rgb(201, 214, 223);
 }
-.navbar-nav {
-    justify-content: flex-end;
-}
-.navbar-nav a:hover {
-    border-bottom: 2px solid black;
-
+.nav-link {
+    color: black;
 }
 
+.navbar-collapse a:hover {
+    border-bottom: 1px solid black;
+    
+}
 header {
     background-color: rgb(82, 97, 107); 
 }
@@ -37,6 +37,12 @@ header {
 h1 {
     font-size: 50px;
     font-family:'Cinzel', serif;
+}
+.arrow {
+    position: absolute;
+    margin-top: 26em;
+    margin-left: 28em;
+    width: 40px;
 }
 /* Containers */
 .top-container {
@@ -73,8 +79,9 @@ h1 {
 ul {
     list-style-type: none;
 }
-.progressbar {
-    
+.progress {
+    width: 75%;
+    margin: auto;
 }
 /* Projects */
 .project {
@@ -209,8 +216,26 @@ ul {
     /* MEDIA QUERY */
 
 @media screen  and (max-width:768px) {
-    h1 {
-
+    h1  {
+        font-size: xx-large;
+        padding-top: 80px;
+    }
+    .subheading {
+        font-size: small;
+        padding-bottom: 80px;
+    }
+    p {
+        font-size: small;
+    }
+    .top-container {
+        padding-top: 150px;
+  
+    }
+    h3 {
+        font-size: medium;
+    }
+    li {
+        font-size: medium;
     }
     .logo {
         display: none;
@@ -219,12 +244,26 @@ ul {
         text-align: center;
     }
     .moon {
-        display: none;
+        width: 400px;
     }
-    .top-cloud {
-        display: none;
+    .astronaut {
+        top: 100px;
+        right: 50px;
+        width: 50px;
+        height: 50px;
     }
-    .bottom-cloud {
-        display: none;
+    .spaceship {
+        top: 150px;
+        left: 50px;
+        width: 50px;
+        height: 50px;
     }   
+    .footer i {
+        font-size: small;
+        line-height: 36px;
+    }
+    .footer a {
+        font-size: small;
+        line-height: 36px;
+    }
 }
