@@ -44,6 +44,10 @@ h1 {
     margin-left: 28em;
     width: 40px;
 }
+.arrow:hover {
+    background-color: rgb(82, 97, 107);
+    border-radius: 50%;
+}
 /* Containers */
 .top-container {
     background-color: rgb(82, 97, 107);
@@ -137,7 +141,6 @@ ul {
 }
 /* .footer {
     background-color: rgb(82, 97, 107);
-    height: 200px;
 } */
 /* CAROUSEL */
 .testimonial-area {
@@ -178,8 +181,8 @@ ul {
 }
 input[type="submit"]:hover{
     cursor:pointer;
-    background: blue;
-    color:black;
+    background: black;
+    color:white;
     }
     /* @media (min-width: 768px) and (max-width: 991px) {
         .content p {
