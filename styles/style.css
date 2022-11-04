@@ -40,8 +40,8 @@ h1 {
 }
 .link-arrow {
     position: fixed;
-    bottom: 0;
-    right: 0;
+    bottom: 0.5em;
+    right: 0.3em;
 }
 .arrow {
     width: 40px;
@@ -246,6 +246,7 @@ input[type="submit"]:hover{
     }
     p {
         font-size: small;
+        text-align: center;
     }
     .top-container {
         padding-top: 150px;
@@ -255,7 +256,7 @@ input[type="submit"]:hover{
         font-size: medium;
     }
     li {
-        font-size: medium;
+        font-size: small;
     }
     .logo {
         display: none;
