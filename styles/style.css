@@ -241,9 +241,12 @@ input[type="submit"]:hover{
         font-size: small;
         text-align: center;
     }
+    .paragraph {
+        margin-right: 30px;
+        margin-left: 50px;
+    }
     .top-container {
         padding-top: 150px;
-  
     }
     h3 {
         font-size: medium;
