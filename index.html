@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="./assets/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Oswald&display=swap" rel="stylesheet">   
@@ -18,9 +18,9 @@
 <body>
     <header>
       <!---------------NAVBAR------------->
-      <nav class="navbar navbar-expand-lg bg-light">
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <img class="logo" src="https://i.postimg.cc/JhRNhnQr/1000-F-347109516-UGKu-SQWUJG6-Ymp-UPJ1-Gqh-PAH80-Gd-WLWr.jpg" alt="logo">
+          <img class="logo" src="https://i.postimg.cc/JhRNhnQr/1000-F-347109516-UGKu-SQWUJG6-Ymp-UPJ1-Gqh-PAH80-Gd-WLWr.jpg" alt="logo" loading="lazy">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -55,7 +55,9 @@
       <p class="subheading text-black">Aspiring Full Stack Web Developer</p>
       <img class="spaceship img-fluid" src="https://i.postimg.cc/0yHgJZy3/startup.png" alt="spaceship">
       <img class="moon img-fluid" src="https://i.postimg.cc/PJYBwkRr/halfmoon.png" alt="moon">
-      <a href="#" class="link-arrow fixed-top"><img src="https://i.postimg.cc/ydCqB7Wc/up-arrow.png" loading="lazy" alt="scroll button" class="arrow"></a>
+      <a href="#" class="link-arrow">
+        <img src="https://i.postimg.cc/ydCqB7Wc/up-arrow.png" loading="lazy" alt="scroll button" class="arrow">
+      </a>
     </div>
   </section>
   <!-- ABOUT ME -->
@@ -208,8 +210,6 @@
               </div>
             </div>
           </div>
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">
-          </script>
            </section>
         <!-- CONTACT -->
         <section class="container-fluid">
@@ -218,7 +218,7 @@
               <div class="row my-3 px-5">
                   <div class="col-sm-12 col-lg-6 mb-4">
                       <input type="text" class="form-control form-control-lg" placeholder="First name"
-                          aria-label="First name" name="firstName" required>
+                      aria-label="First name" name="firstName" required>
                   </div>
                   <div class="col-sm-12 col-lg-6 mb-4">
                       <input type="text" class="form-control form-control-lg" placeholder="Last name"
@@ -253,16 +253,18 @@
         </div>
       </footer> -->
 
-        <footer class="container-fluid bg-dark">
-          <div class="footer container-fluid d-flex justify-content-center">
+        <footer class="footer container-fluid">
+          <div class="container-fluid d-flex justify-content-center">
             <a class="footer-link" href="https://github.com//"><i class="fa-brands fa-github"></i>GitHub</a>
             <a class="footer-link" href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
             <a class="footer-link" href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i>Facebook</a>
             <a class="footer-link" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i>Instagram</a>
           </div>
-          <div class="text-center text-black p-3 bg-dark">
+          <div class="text-center text-black p-3 fs-6">
             <p>© Copyright 2022. Made by Javier Goodall</p>
           </div>
         </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">
+    </script>
 </body>
 </html>
