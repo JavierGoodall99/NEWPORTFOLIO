@@ -96,22 +96,6 @@ ul {
     width: 100px;
     height: 150px;
 }
-/* .grid-container {
-    display: grid;
-    column-gap: 50px;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-  }
-  
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 50px;
-    width: 400px;
-    font-size: 30px;
-    text-align: center;
-  } */
-
   /* CARD */
   .title {
     text-align: center;
@@ -131,9 +115,15 @@ ul {
     font-size: 15px;
     font-weight: 600;
   }
+  .card-body a {
+    color: rgb(36, 147, 166);
+  }
   .card-body a:hover {
-    color: blueviolet;
+    color: black;
     text-decoration: none;
+  }
+  img {
+    object-fit: cover;
   }
 
 /* FOOTER */
@@ -162,7 +152,7 @@ ul {
 	margin-top: 50px;
     box-shadow: 0 0 20px 7px black;
     object-fit: cover;
-    /* object-position: bottom; */
+    /* object-position: 0px; */
 }
 .carousel-indicators {
 	bottom: -80px;
