@@ -53,9 +53,10 @@ h1 {
 }
 .arrow {
     width: 40px;
+    background-color: white;
 }
 .arrow:hover {
-    background-color:rgb(36, 147, 166);
+    /* background-color:rgb(36, 147, 166); */
     border-radius: 50%;
 }
 /* Containers */
