@@ -27,12 +27,12 @@ header {
     background-color: rgb(82, 97, 107); 
 }
 .logo {
-    position: absolute;
-    width: 6rem;
-    height: 6rem;
+    /* position: absolute; */
+    width: 4rem;
+    height: 4rem;
     right: 57em;
-    padding: 1rem;
-    border-radius: 30%;
+    /* padding: 1rem; */
+    /* border-radius: 30%; */
 }
 h1 {
     font-size: 50px;
@@ -246,6 +246,10 @@ input[type="submit"]:hover{
         font-size: xx-large;
         padding-top: 80px;
     }
+    .logo {
+        width: 3rem;
+        height: 3rem;
+    }
     .subheading {
         font-size: small;
         padding-bottom: 80px;
@@ -267,9 +271,6 @@ input[type="submit"]:hover{
     li {
         font-size: small;
         margin: auto;
-    }
-    .logo {
-        display: none;
     }
     body {
         text-align: center;
