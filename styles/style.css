@@ -241,7 +241,7 @@ input[type="submit"]:hover{
 
     /* MEDIA QUERY */
 
-@media screen  and (max-width:900px) {
+@media screen  and (max-width:1038px) {
     h1  {
         font-size: xx-large;
         padding-top: 80px;
